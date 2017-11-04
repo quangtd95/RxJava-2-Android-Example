@@ -13,7 +13,8 @@
         </activity>
         <activity android:name="com.quangtd.rxexamples.concatStream.MainActivity">
         </activity>
-        <activity android:name="com.quangtd.rxexamples.rxSearch.MainActivity">
+        <activity android:name="com.quangtd.rxexamples.rxSearch.MainActivity"/>
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
