@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".zipAndMerge.ZipAndMergeActivity">
+
+    <Button
+        android:id="@+id/btn_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="zip"
+        android:text="zip()"
+        />
+
+    <TextView
+        android:id="@+id/txt_zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_zip_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="zipList"
+        android:text="zipList()"
+        />
+
+    <TextView
+        android:id="@+id/txt_zip_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_merge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="merge"
+        android:text="merge()"
+        />
+
+    <TextView
+        android:id="@+id/txt_merge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_merge_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="mergeList"
+        android:text="mergeList()"
+        />
+
+    <TextView
+        android:id="@+id/txt_merge_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

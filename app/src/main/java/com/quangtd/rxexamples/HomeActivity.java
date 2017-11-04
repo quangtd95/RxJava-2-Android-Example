@@ -10,6 +10,7 @@ import android.widget.Toast;
 import com.quangtd.rxexamples.concat2.ConcatStream2;
 import com.quangtd.rxexamples.loadMoreRecyclerView.MainActivity;
 import com.quangtd.rxexamples.zip.Zip;
+import com.quangtd.rxexamples.zipAndMerge.ZipAndMergeActivity;
 
 /**
  * QuangTD on 11/4/2017.
@@ -44,5 +45,6 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void zip_merge(View view) {
+        startActivity(new Intent(this, ZipAndMergeActivity.class));
     }
 }
